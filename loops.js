@@ -17,13 +17,13 @@ function whileLoop(number) {
     return 'done';
   }
   }
-  function doWhileLoop(number) {
+  function doWhileLoop(num) {
     function incrementVariable() {
-      number = number + 1;
-      return number;
+      num = num + 1;
+      return num;
     }
     do {
       console.log("I run once regardless.");
     } while 
-    (incrementVariable() < number);
+    (incrementVariable() < num);
   }
